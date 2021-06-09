@@ -9,27 +9,9 @@ const Container = styled.div`
   background-color: #ffc000;
   input,
   button {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
-  @media screen and (max-width: 1024px) {
-    input,
-    button {
-      font-size: 1.5rem;
-    }
-  }
-  @media screen and (max-width: 768px) {
-    input,
-    button {
-      font-size: 1rem;
-    }
-  }
-  @media screen and (max-width: 768px) {
-    button,
-    input {
-      font-size: 0.8rem;
-    }
-    font-size: 0.8rem;
-  }
+  font-family: "yg-jalnan", sans-serif;
 `;
 
 const Title = styled.h1`

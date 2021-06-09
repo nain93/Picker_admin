@@ -72,7 +72,6 @@ function PickDetail() {
           <Picknow id={id} />
           <PickSee />
         </Detail>
-        {console.log(id === "2")}
         {id === "2" || id === "4" ? (
           <DescDetail>
             <DescDetailBox>

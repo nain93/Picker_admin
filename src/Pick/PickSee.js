@@ -24,32 +24,38 @@ const SeeGridBox = styled.div`
     flex-direction: column;
     h1 {
       padding: 10px 20px;
+      text-align: center;
     }
+
     > div {
       padding: 10px 20px;
       display: flex;
+      align-items: center;
+      justify-content: center;
       border-top: 1px solid rgba(0, 0, 0, 0.1);
       height: 100%;
       width: 100%;
     }
   }
   > div:nth-child(2) {
-    > diV {
-      direction: flex;
-      align-items: center;
-
-      div {
-        border-radius: 5px;
-        background-size: cover;
-        background-position: center center;
-        width: 40px;
-        height: 40px;
-      }
+    > diV div {
+      border-radius: 5px;
+      background-size: cover;
+      background-position: center center;
+      width: 40px;
+      height: 40px;
     }
   }
   > div:nth-child(3) {
     grid-row: 1;
     grid-column: 3/5;
+    > h1 {
+      text-align: left;
+    }
+    > div {
+      display: flex;
+      justify-content: flex-start;
+    }
   }
 `;
 
@@ -83,31 +89,67 @@ function PickSee() {
             ></div>
           </div>
           <div>
-            <div src={initialData.funItem1.result[1].img}></div>
+            <div
+              style={{
+                backgroundImage: `url(${initialData.funItem1.result[1].img})`,
+              }}
+            ></div>
           </div>
           <div>
-            <div src={initialData.funItem1.result[2].img}></div>
+            <div
+              style={{
+                backgroundImage: `url(${initialData.funItem1.result[2].img})`,
+              }}
+            ></div>
           </div>
           <div>
-            <div src={initialData.funItem1.result[3].img}></div>
+            <div
+              style={{
+                backgroundImage: `url(${initialData.funItem1.result[3].img})`,
+              }}
+            ></div>
           </div>
           <div>
-            <div src={initialData.funItem2.result[0].img}></div>
+            <div
+              style={{
+                backgroundImage: `url(${initialData.funItem2.result[0].img})`,
+              }}
+            ></div>
           </div>
           <div>
-            <div src={initialData.funItem2.result[1].img}></div>
+            <div
+              style={{
+                backgroundImage: `url(${initialData.funItem2.result[1].img})`,
+              }}
+            ></div>
           </div>
           <div>
-            <div src={initialData.funItem2.result[2].img}></div>
+            <div
+              style={{
+                backgroundImage: `url(${initialData.funItem2.result[2].img})`,
+              }}
+            ></div>
           </div>
           <div>
-            <div src={initialData.funItem2.result[3].img}></div>
+            <div
+              style={{
+                backgroundImage: `url(${initialData.funItem2.result[3].img})`,
+              }}
+            ></div>
           </div>
           <div>
-            <div src={initialData.funItem3.result[0].img}></div>
+            <div
+              style={{
+                backgroundImage: `url(${initialData.funItem3.result[0].img})`,
+              }}
+            ></div>
           </div>
           <div>
-            <div src={initialData.funItem3.result[1].img}></div>
+            <div
+              style={{
+                backgroundImage: `url(${initialData.funItem3.result[1].img})`,
+              }}
+            ></div>
           </div>
         </div>
         <div>

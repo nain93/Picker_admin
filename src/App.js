@@ -4,6 +4,7 @@ import Dashboard from "./Dashboard";
 import Fun from "./Fun";
 import GlobalStyles from "./GolbalStyles";
 import Landing from "./Landing";
+import PageNotFound from "./PageNotFound";
 import Pick from "./Pick";
 import PickDetail from "./Pick/PickDetail";
 import Token from "./Token";
@@ -20,6 +21,7 @@ function App() {
           <Route path="/pick/:id" component={PickDetail} />
           <Route path="/fun" component={Fun} />
           <Route path="/token" component={Token} />
+          <Route component={PageNotFound} />
         </Switch>
       </Router>
     </>

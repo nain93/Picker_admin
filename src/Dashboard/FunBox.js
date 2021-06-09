@@ -76,6 +76,22 @@ function FunBox() {
           <RiArrowDownSFill />
         </Link>
       </div>
+      {/* <table>
+        <thead>
+          <span>FUN</span>
+          <Link>
+            <span>생성</span>
+            <RiArrowDownSFill />
+          </Link>
+        </thead>
+        <thead></thead>
+        <tbody>
+          <tr>
+            <td></td>
+          </tr>
+          <tr></tr>
+        </tbody>
+      </table> */}
       <div>
         <div>
           <h1>일자</h1>
