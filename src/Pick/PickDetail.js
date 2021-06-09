@@ -13,6 +13,7 @@ const Container = styled.div`
   svg {
     font-size: 2rem;
   }
+  margin-top: 60px;
   button {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.2rem;

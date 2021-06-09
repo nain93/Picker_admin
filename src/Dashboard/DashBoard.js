@@ -10,6 +10,7 @@ const Container = styled.div`
   width: 100%;
   display: flex;
   font-size: 1.5rem;
+
   svg {
     font-size: 2rem;
   }

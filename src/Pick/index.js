@@ -15,6 +15,7 @@ const Container = styled.div`
   svg {
     font-size: 2rem;
   }
+  margin-top: 60px;
 `;
 
 const DetailBox = styled.div`

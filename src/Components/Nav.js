@@ -5,12 +5,16 @@ import { BsPeopleCircle } from "react-icons/bs";
 import { HiOutlineLogout } from "react-icons/hi";
 
 const Container = styled.div`
-  width: 100%;
+  width: 80%;
   height: 8vh;
   background-color: #ffc000;
   display: flex;
   justify-content: flex-end;
   padding: 0 5%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
 `;
 
 // const NavBurgerBtn = styled.div`

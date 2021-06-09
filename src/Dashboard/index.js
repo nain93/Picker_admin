@@ -10,28 +10,7 @@ const Container = styled.div`
   svg {
     font-size: 2rem;
   }
-  @media screen and (max-width: 1024px) {
-    font-size: 1.2rem;
-  }
-  @media screen and (max-width: 768px) {
-    font-size: 1.2rem;
-    svg {
-      font-size: 2rem;
-    }
-  }
-  @media screen and (max-width: 420px) {
-    font-size: 1.2rem;
-    svg {
-      font-size: 1.5rem;
-    }
-  }
-  @media screen and (max-width: 320px) {
-    font-size: 1rem;
-    svg {
-      font-size: 1.2rem;
-    }
-  }
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 60px;
 `;
 
 function Home({ match }) {

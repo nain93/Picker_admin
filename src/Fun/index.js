@@ -13,7 +13,7 @@ const Container = styled.div`
   svg {
     font-size: 2rem;
   }
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 60px;
 `;
 
 const DetailBox = styled.div`
